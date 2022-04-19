@@ -1,0 +1,21 @@
+Para este segundo trabajo se añadieron nuevas características:
+
+	//Una mejor documentación del código. 
+	//Se incorporó 2 clases abstracta, una para medico y paciente y otra para hospital.
+	// Para las clases:
+
+		** Hospital:
+			Se crearon 2 nuevos atributos: suministro e infraestructura.
+			El método info se modificó para mostrar los atributos nuevo.
+			Ahora la clase extiende una clase abstracta llamada Mantenimiento.
+			Se agregaron varios métodos "get" para visualizar cada atributo del objeto.
+			Se añadió dos funcionalidades nuevas: "incrementNroMedico" y "decrementNroMedico". 
+		** Medico:
+			Se añadió un nuevo atributo llamado edad.
+			Se actualizó el método info para mostrar los atributos nuevos.
+			Ahora la clase extiende una clase abstracta llamada DatosPersonales.
+		** Paciente:
+			Ahora la clase extiende una clase abstracta llamada DatosPersonales.
+
+	//Se trabajó con encapsulamiento para los atributos.
+	//También se trabajó con encapsulamiento para los métodos. 
