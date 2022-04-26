@@ -1,0 +1,29 @@
+Ejercicio 2: Para este segundo trabajo se añadieron nuevas características.
+	// Una mejor documentación del código. 
+	// Se incorporó 2 clases abstracta, una para medico y paciente y otra para hospital.
+	// Para las clases:
+
+		** Hospital:
+			Se crearon 2 nuevos atributos: suministro e infraestructura.
+			El método info se modificó para mostrar los atributos nuevo.
+			Ahora la clase extiende una clase abstracta llamada Mantenimiento.
+			Se agregaron varios métodos "get" para visualizar cada atributo del objeto.
+			Se añadió dos funcionalidades nuevas: "incrementNroMedico" y "decrementNroMedico". 
+		** Medico:
+			Se añadió un nuevo atributo llamado edad.
+			Se actualizó el método info para mostrar los atributos nuevos.
+			Ahora la clase extiende una clase abstracta llamada DatosPersonales.
+		** Paciente:
+			Ahora la clase extiende una clase abstracta llamada DatosPersonales.
+
+	// Se trabajó con encapsulamiento para los atributos.
+	// También se trabajó con encapsulamiento para los métodos. 
+
+
+###############################################################################################################
+Ejercicio 3: Para este tercer trabajo se añadieron nuevas características.
+	// Poner los nombres de atributos, variables y clases en ingles.
+	// Se modularizó el archivo classAbstract.php; Ahora son dos archivos distintos para cada una de las clases abstractas ("maintenance_Abstract" y "personalData_Abstract").
+
+	// Se añadió polimorfismo en medical y patient (toCure, sleep, eat);
+	// Se añadió más herencia. La clase ActionPersonal extiende de PersonalData, así como medical y patient extienden de ActionPersonal, ahora las clases Medical y Patient tienen los métodos de PersonalData y ActionPersonal.
